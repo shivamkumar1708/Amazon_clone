@@ -1,0 +1,75 @@
+.login-logo {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width: 110px;
+  height: 33px;
+  margin-right: auto;
+  margin-right: auto;
+  /* object-fit: contain; */
+}
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff;
+}
+.login-container {
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  padding: 20px;
+}
+.login-container h1 {
+  font-weight: 450;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+.login-container form h5 {
+  margin-bottom: 5px;
+}
+.login-container form input {
+  border-radius: 3px;
+  height: 25px;
+  margin-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  width: 98%;
+}
+.login-container p {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.signin-button {
+  background: #f0c14b;
+  border-radius: 3px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+.signin-button:hover {
+  cursor: pointer;
+  background: #e3b747;
+}
+.create-account-button {
+  border-radius: 3px;
+
+  background: #f0c14b;
+  border: 1px solid darkgrey;
+  width: 25%;
+  height: 30px;
+  margin-top: 10px;
+  background-color: rgb(249, 246, 246);
+}
+.create-account-button:hover {
+  cursor: pointer;
+  background-color: rgb(233, 233, 240);
+}
+.newtoamazon {
+  padding: 5px;
+  font-size: 12px;
+  margin-top: 15px;
+}
